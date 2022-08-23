@@ -3,4 +3,10 @@ public class Car {
     String license;
     String driver;
     Integer passenger;
+
+    // constructor method
+
+    void printDataCar(){
+        System.out.println("License: "+ license + " Driver: "+ driver);
+    }
 }
