@@ -3,7 +3,6 @@ class Car:
     license = str
     driver = str
     passenger = int
-    def r():
         
 
 
