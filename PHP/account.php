@@ -5,4 +5,10 @@ class Account{
     public $document;
     public $email;
     public $password;
+
+    // metodo constructor
+    public function __construct($name, $document){
+        $this->name = $name;
+        $this->document = $document;
+    }
 }
