@@ -45,12 +45,18 @@
 require_once("car.php");
 require_once("account.php");
 require_once('uberX.php');
+require_once('uberPool.php');
 
 
 // $car = new Car("AMD123", new Account("Pepito", "12345678"));
 
 $uberX = new UberX("APT2", new Account("Pepe R", "123456"), "Ferrari", "AZ");
 $uberX->printDataCar();
+
+$uberPool = new UberPool("APT3", new Account("Maria", "100453"), "Chevrolet", "spark");
+
+$uberPool->printDataCar();
+
 
 ?>
 
