@@ -1,9 +1,10 @@
+from sqlalchemy import null
 from account import Account
 
 class Car:
     id = int
     license = str
-    driver = Account("", "")
+    driver = Account(null, "", "", "", "")
     passenger = int
 
 
