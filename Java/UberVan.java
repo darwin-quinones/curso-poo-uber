@@ -15,4 +15,21 @@ class UberVan extends Car{
 
     }
 
+    // otro constructor
+    public UberVan(String license, Account driver){
+        super(license, driver);
+    }
+
+    // aplicando polimorfismo
+    @Override
+    public void setPassenger(Integer passenger) {
+        if(passenger == 6){
+            this.passenger = passenger;
+        }else{
+            System.out.println("Objeto UberVan: Necesitas registrar 6 passenger");
+        } 
+    }
+
+    
+
 }
